@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(19, 1, 19);
+  font-size: 16px;
+  font-family: Orbitron;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  background-color: gray;
+  width: 70%;
+  height: 300px;
+  border-radius: 15% 15% 5% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  background-color: black;
+  width: 80%;
+  height: 70%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#hours, #minutes, #seconds {
+  background-color: #051b01;
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.divider {
+  margin: auto 10px;
+  height: 80%;
+  width: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  color: #39FF14;
+}
+
+.numbers {
+  color: #39FF14;
+  font-size: 5rem;
+}
